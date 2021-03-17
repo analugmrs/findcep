@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300;400;800&display=swap');
+
+html {
+    background-color: #F0CC5B;
+    margin: 0 auto;
+}
+body {
+    font-family: 'JetBrains Mono', monospace;
+    color: black;
+    margin: 10% auto;
+    font-size: 11px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    top:50%;
+    background-color: white;
+    width: 500px;
+    height: auto;
+    padding: 20px 10px 10px 10px;
+    color: black;
+    box-shadow: 1px 1px #f1f1f1;
+}
+
+a1 {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 20px;
+    letter-spacing: -2px;
+    color: #f04f62;
+}
+a2 {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: -2px;
+}
+b {
+    color: #fc9a83;
+    padding:1px;
+}
+b:hover{
+    background-color:#1c0444;
+    padding:1px;
+    transition: 0.5s;
+}
+input[type=text] {
+    width:338px;
+    padding: 10px;
+    position:relative;
+    border: 1px solid #7f90f0;
+    outline: none;
+    transition: 0.5s;
+    font-family: 'JetBrains Mono', monospace;
+}            
+input[type=text]:hover, [type=text]:focus {
+    background: #f0f0f0;
+    border: 1px solid #F0CC5B;
+    transition: 1s;
+}
+button {
+    background-color: #7f90f0;
+    padding: 10px;
+    border: 1px solid #7f90f0;
+    width:130px;
+    color:#1c0444;  
+    outline: none;
+    transition: 0.5s;
+    font-family: 'JetBrains Mono', monospace;
+}
+button:hover {
+    background-color: #F0CC5B;
+    border: 1px solid #F0CC5B;
+    color:#f04f62;
+    transition: 0.5s;
+    letter-spacing: 1px;
+}
+p {
+    margin: 5px 20px;
+    padding: 5px;
+    font-style: italic;
+}
